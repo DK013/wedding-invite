@@ -14,6 +14,11 @@
 	src: url(../fonts/Norsebold.otf);
 }
 
+:root, .md, .ios {
+    --f7-theme-color: darkgoldenrod !important;
+    --f7-button-outline-border-color: var(--f7-theme-color) !important;
+}
+
 .button-outline,
 .ios .button-outline-ios,
 .md .button-outline-md {

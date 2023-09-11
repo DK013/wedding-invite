@@ -5,10 +5,9 @@ import top from "../images/top.png";
 
 const ContentPage = () => {
 	return (
-		<Page name="content" pageContent={false}>
-			<div className="page-content h-full flex justify-center items-center">
-				<img src={top} className="w-full absolute top-0 left-0 max-h-full" />
-				<Block className="text-center">
+		<Page name="content">
+			<img src={top} className="w-full absolute top-0 left-0 max-h-full" />
+				<Block className="text-center md:mt-36">
 					<h1 className="mb-3">
 						🌸 You're Invited to a Celebration of Love 🌸
 					</h1>
@@ -60,7 +59,7 @@ const ContentPage = () => {
 						So mark the date and save the hour, <br />
 						For a wedding that promises joy in a fragrant flower.
 					</p>
-					<p className="my-3 text-right">
+					<p className="my-5">
 						With love and warmth,
 						<br />
 						Kusum & Deep
@@ -84,7 +83,6 @@ const ContentPage = () => {
 						Save the Date
 					</Button> */}
 				</Block>
-			</div>
 		</Page>
 	);
 };
