@@ -1,0 +1,18 @@
+{
+  "cwd": "D:\\Docs\\Personal\\Projects\\Web\\Projects\\KusumWedsDeep",
+  "type": [
+    "web"
+  ],
+  "name": "Kusum Weds Deep",
+  "framework": "react",
+  "template": "blank",
+  "cssPreProcessor": false,
+  "bundler": "vite",
+  "theming": {
+    "customColor": true,
+    "color": "#bd9363",
+    "darkMode": false,
+    "iconFonts": false
+  },
+  "customBuild": false
+}
