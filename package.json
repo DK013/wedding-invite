@@ -5,10 +5,13 @@
   "description": "Kusum Weds Deep",
   "repository": "",
   "license": "UNLICENSED",
+  "homepage": "https://dk013.github.io/wedding-invite",
   "scripts": {
     "start": "npm run dev",
     "dev": "cross-env NODE_ENV=development vite",
-    "build": "cross-env NODE_ENV=production vite build"
+    "build": "cross-env NODE_ENV=production vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d www"
   },
   "browserslist": [
     "IOS >= 15",
