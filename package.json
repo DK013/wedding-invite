@@ -1,7 +1,7 @@
 {
   "name": "kusum-weds-deep",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Kusum Weds Deep",
   "repository": "",
   "license": "UNLICENSED",
@@ -27,6 +27,7 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-on-images-loaded": "^2.2.8",
     "skeleton-elements": "^4.0.1",
     "swiper": "^10.2.0"
   },
