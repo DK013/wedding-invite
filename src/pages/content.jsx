@@ -25,10 +25,16 @@ const ContentPage = () => {
 						A promise of forever, they'll tenderly share, <br />
 						In a moment so precious, nothing can compare.
 					</p>
+					<p className="my-3 text-lg">Marriage</p>
 					<p className="my-3">
 						📆 Date: 23rd November <br />
 						⏰ Time: Sunset <br />
-						🏰 Venue: [Venue]
+						🏰 Venue: <a href="https://maps.app.goo.gl/fJvMymdnyCsXVFVh8">Katunamoyee Kali Temple</a> 
+					</p>
+					<p className="my-3">
+						📆 Date: 25th November <br />
+						⏰ Time: Sunset <br />
+						🏰 Venue: <a href="https://goo.gl/maps/eyuGjtWzxHpSeCof8">Taldi</a> 
 					</p>
 					<p className="my-3">
 						With love as their compass and dreams in their eyes,{" "}
@@ -71,7 +77,7 @@ const ContentPage = () => {
                             lightMode="light"
 							name="Kusum & Deep's Wedding"
 							options={["Apple", "Google"]}
-							location="Canning"
+							location="Katunamoyee Kali Temple"
 							startDate="2023-11-23"
 							endDate="2023-11-23"
 							startTime="20:00"
