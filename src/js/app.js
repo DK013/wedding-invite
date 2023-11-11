@@ -12,7 +12,6 @@ import Framework7React from 'framework7-react';
 import 'framework7/css/bundle';
 
 // Import Icons and App Custom Styles
-
 import "../assets/tailwind.css";
 import '../css/app.css';
 

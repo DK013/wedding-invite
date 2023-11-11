@@ -14,9 +14,11 @@
 	src: url(../fonts/Norsebold.otf);
 }
 
-:root, .md, .ios {
-    --f7-theme-color: darkgoldenrod !important;
-    --f7-button-outline-border-color: var(--f7-theme-color) !important;
+:root,
+.md,
+.ios {
+	--f7-theme-color: darkgoldenrod !important;
+	--f7-button-outline-border-color: var(--f7-theme-color) !important;
 }
 
 .button-outline,
@@ -46,7 +48,7 @@
 	color: var(--f7-theme-color);
 	letter-spacing: 1px;
 	text-shadow: 2px -2px 5px rgba(0, 0, 0, 1);
-    margin-top: var(--f7-block-title-margin-bottom);
+	margin-top: var(--f7-block-title-margin-bottom);
 }
 
 .datebtn {
@@ -74,7 +76,22 @@
 }
 
 .page[data-name="splash"] .page-content {
-    background: radial-gradient(circle, rgba(56,48,85,1) 0%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+		linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+		linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+		linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+		linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+		linear-gradient(
+			#1d1d1d 25%,
+			#1a1a1a 25%,
+			#1a1a1a 50%,
+			transparent 50%,
+			transparent 75%,
+			#242424 75%,
+			#242424
+		);
+	background-color: #131313;
+	background-size: 20px 20px;
 }
 
 .container {
@@ -104,9 +121,9 @@
 	color: white;
 	border: none;
 	border-radius: 50%;
-	background: darkgoldenrod;
+	background: rgb(252, 181, 2);
 	cursor: pointer;
-	box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
+	box-shadow: 0 5px 15px rgba(252, 181, 2, .4);
 	animation: pulse 1.5s infinite;
 }
 
